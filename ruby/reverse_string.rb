@@ -1,5 +1,15 @@
 def reverse_string(str)
-  # type your code in here
+  arr = str.split('')
+  new_arr = []
+
+  i = arr.length - 1
+
+  while i >= 0
+    new_arr << arr[i]
+    i -= 1
+  end
+  
+  new_arr.join('')
 end
 
 if __FILE__ == $PROGRAM_NAME
