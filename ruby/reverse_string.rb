@@ -1,7 +1,6 @@
 def reverse_string(str)
   arr = str.split('')
   new_arr = []
-
   i = arr.length - 1
 
   while i >= 0
